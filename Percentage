@@ -1,0 +1,9 @@
+n=int(input())
+sinfo=[]
+for i in range(n):
+	sinfo.append([input(),int(input()),int(input()),int(input())])
+name=input()
+for i in range(n):
+	if(sinfo[i][0]==name):
+		d=float((sinfo[i][1]+sinfo[i][2]+sinfo[i][3])/3)
+		print(d)
